@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jcs{
+    justify-content: space-between;
+}
+header {
+    padding: 20px 0;
+    background-color: #daac00;
+}
+.ali{
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.col-70{
+    width: 70%;
+}
+.col-20{
+    width: 20%;
+}
+.col-33{
+    width: 100%;
+}
+.col-25{
+    width: 25%;
+}
+.col-60{
+    width: 60%;
+}
+.col-30{
+    width: 100%;
+    /* border: solid 2px; */
+}
+.col-50{
+    width: 100%;
+}
+
+.navbar{
+    align-items: center; 
+   justify-content: space-between;
+}
+.text-a ul li{
+    display: inline-block;
+    margin: 0 50px;
+    font-size: 25px;
+    color: white;
+}
+.search input{
+    height: 35px;
+    padding: 10px;
+    background-color: #fcc302;
+    border: none;
+}
+.search button{
+    width: 30px;
+    background-color: #00bec9;
+    color: white;
+    margin: 0 -20px;
+    border: none;
+    padding: 10px 0;
+}
+
+.sine-2{
+    padding: 100px 0 0px 0;
+    background-color: #fcc302;
+
+}
+.sine-2-text{
+    position: relative;
+    padding:0 0 100px 0;
+
+}
+.img-1 img{
+    position: absolute;
+    right: 10px;
+    top: -150px;
+   }
+
+#s-m{
+ margin: 0 0 100px 0;
+}
+
+.sine-2-text h1{
+    font-size: 70px;
+    color: white;
+}
+.sine-2-text p{
+    font-size: 29px;
+    color: white;
+    padding: 30px 0;
+}
+.sine-2-text button{
+    border: none;
+    margin: 40px 0;
+    width: 30%;
+    padding: 10px;
+}
+#s-m{
+    background-color: #00bec9;
+}
+
+/* sine-3 */
+
+.sine-3{
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+.sine-3-text h2{
+    font-size: 50px;
+    color: #313243;;
+}
+.sine-3-text p{
+    font-size: 29px;
+    color: #313243;
+    padding: 50px 0;
+    width: 80%;
+}
+.sine-3-text button{
+    width: 30%;
+    padding: 10px;
+    background-color: #fcc302;
+    color: white;
+    border: none;
+    margin: 20px 0;
+}
+/* sine-4 */
+
+.sine-4{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fcc302;
+}
+.sine-4-text h2{
+    font-size: 75px;
+    color: #ffffff;
+}
+.sine-4-text p{
+    font-size: 33px;
+    padding: 20px 0 70px 0;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+.img-p h2{
+    color: #ffffff;
+    padding: 20px 0 20px 0;
+}
+.img-p p{
+    color: #ffffff;
+    width: 57%;
+    margin: 0 auto;
+}
+.img-p img{
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* sine-5 */
+
+.sine-5{
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+.sine-5-img h2{
+    font-size: 50px;
+}
+.sine-5-img p{
+    font-size: 25px;
+    padding: 40px 0;
+}
+.sine-5-img button{
+  width: 20%;
+  padding: 10px;
+  background-color: #fcc302;
+  color: white;
+  border: none;
+}
+.text-1{
+    text-align: end;
+}
+.btn5{
+    text-align: end;
+}
+.sine-5-img img{
+    width: 100%;
+}
+
+
+/* sine-6 */
+
+.sine-6{
+    padding: 50px 0;
+    background-color: #fcc302;
+    text-align: center;
+}
+.sine-6-text h2{
+    font-size: 75px;
+    color: white;
+    padding: 20px 0;
+}
+.sine-6-text p{
+    font-size: 33px;
+    color: white;
+    padding: 10px 0 50px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+.img-z h3{
+    font-size: 42px;
+    color: white;
+    padding: 20px 0;
+    
+}
+.img-z button{
+    width: 25%;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #00bec9;
+    color: white;
+    border: none;
+}
+.img-z img{
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* sine-7 */
+
+.sine-7{
+    padding: 50px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+.sine-7-text h2{
+    font-size: 75px;
+    padding: 20px 0;
+}
+.sine-7-text p{
+    padding-bottom: 60px;
+    font-size: 33px;
+    width: 70%;
+    margin: 0 auto;
+}
+.sine-7-img h3{
+    padding: 10px 0;
+    font-size: 29px;
+}
+.sine-7-img h4{
+    padding: 10px 0;
+    font-size: 22px;
+}
+.icon{
+    padding: 10px 0;
+  color: #daac00;
+  font-size: 40px;
+}
+.sine-7-img img{
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+
+
+/* sine-8 */
+
+.sine-8{
+    padding: 100px 0;
+    background-image: url(./Group\ 7.png);
+    text-align: center;
+    color: white;
+}
+.sine-8-text{
+    padding: 100px 0;
+}
+.sine-8-text h3{
+  font-size: 42px;
+  padding: 20px;
+}
+.sine-8-text h2{
+    font-size: 38px;
+}
+
+/* sine-9 */
+
+.sine-9{
+    padding: 80px 0;
+}
+.sine-9-text{
+    text-align: center;
+}
+.sine-9-text h2{
+    font-size: 75px;
+    margin: 0 10px;
+}
+.sine-9-text p{
+    font-size: 33px;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px 0 50px 0;
+}
+.sine-9-img h2{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.sine-9-img h3{
+    font-size: 17px;
+    color: #00bec9;
+    padding: 10px 0;
+}
+.sine-9-img img{
+    width: 100%;
+}
+
+/* sine-10 */
+.sine-10{
+    background-color: #343434;
+    color: white;
+}
+.sine-10-text{
+    padding: 100px 0;
+}
+.sine-10-text h2{
+    padding: 20px 0;
+    font-size: 45px;
+}
+.sine-10-text ul li{
+    padding: 5px 0;
+    list-style: none;
+    font-size: 28px;
+}
+
+.vbt input{
+    width: 70%;
+    background-color: #daac00;
+    border: none;
+    padding: 10px 0;
+}
+.vbt button i{ 
+    background-color: #00bec9;
+    color: white;
+    border: none; 
+    padding: 0 15px;
+}
+.sine-10-text p{
+    padding: 40px 0;
+    font-size: 20px;
+}
+.icon-1{
+    padding: 10px 0;
+    font-size: 40px;
+}
+.vbt{
+    text-align: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) {
+    .col-50 {width: 100%;}
+    .container{width: 520px;}
+    .img-1 img{
+        width: 40%;
+        top: 300px;
+        right: -20px;
+    }
+    .cart{
+    padding: 0 0 100px 0;
+    margin: 0 0 100px 0;
+} 
+.col-30{width: 100%;
+        /* margin: 0 auto; */
+    }
+.col-33{width:100%}
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    .col-50 {width: 50%; 
+    }
+    .container{width: 720px;}
+      .cart{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.img-1 img{
+     top: 100px; 
+     right: 0px;   
+}
+.col-30{width: 50%;
+    margin: 0 auto;
+}
+.sine-9-img img{
+    margin: 20px 0;
+}
+.col-33{
+    width: 50%;
+}
+
+}
+
+
+
+
+
+@media (min-width:992px) {
+    .col-50 {width: 50%;}
+    .container{width: 950px;}
+.img-1 img{
+    right: 10px;
+    top: -50px;
+}
+.col-30{width: 30%;}
+.col-33{width: 33%;}
+}
+
+
+
+
+
+@media (min-width:1200px) {
+    .col-50 {width: 50%;}
+    .container{width: 1150px;}  
+    .img-1 img{
+        top: -40px;
+    }
+    .col-30{width: 30%;}
+    .col-33{width: 33%;}
+}
